@@ -8,7 +8,9 @@ tile = nil
 
 
 function love.load()
+   -- setup
    love.window.setMode(1024,768)
+
    -- 32px w/h blocks
    green = love.graphics.newImage('green.png')
    blue = love.graphics.newImage('blue.png')
